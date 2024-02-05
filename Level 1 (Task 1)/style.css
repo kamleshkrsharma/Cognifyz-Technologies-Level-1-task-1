@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+body {
+  background: url("/img/amazing\ background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+nav {
+  background-color: chartreuse;
+  padding: 20px;
+  border: 2px solid orangered;
+  border-radius: 25px;
+  margin: 15px;
+  box-shadow: 1px 5px 5px 4px black;
+  width: 95%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+
+nav ul li a:hover {
+  color: blue;
+  font-weight: bolder;
+  transition: 0.9s;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.main {
+  background: rgb(165, 150, 150);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #3100e4;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+}
+
+#pass {
+  color: red;
+  font-size: 12px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #0b19e7;
+  width: 100%;
+  font-size: 16px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
